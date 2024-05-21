@@ -3,10 +3,10 @@
 #include <ctime>
 
 int main() {
-    int randomNumber = std::rand() % 100 + 1;
+    int randomNumber = std::rand() % 10 + 1;
     int userGuess;
 
-    std::cout << "I have generated a random number between 1 and 100.\n";
+    std::cout << "I have generated a random number between 1 and 10.\n";
     std::cout << "Can you guess what it is?\n";
 
     do {
