@@ -3,7 +3,6 @@
 #include <ctime>
 
 int main() {
-    std::srand(std::time(0));
     int randomNumber = std::rand() % 100 + 1;
     int userGuess;
 
